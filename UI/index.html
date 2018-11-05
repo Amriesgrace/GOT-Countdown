@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GOT Fan Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body data-page="homepage">
+       <!-- header -->
+       <header class="header ">
+        <div class="navbar">
+            <!-- Menu Button -->
+            <div class="menu-btn">
+                <a href="index.html" class="no--decor"><span class="greeting pl-5">Valar Morghulis!</span></a>
+                <a href="" title="Click for Menu" id="menu_btn" class="open-menu-btn"></a>
+            </div>
+            <!-- overlay -->
+            <div class="menu-overlay" id="menu_overlay">
+                <div class="nav-container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-2 text-center">
+                            <h2 class="menu-heading">About</h2>
+                            <ul class="mt-3 text-left ml-4 nav-list">
+                                <li class="my-2 list-unstyled"><a href="">Catch Up</a></li>
+                                <li class="my-2 list-unstyled"><a href="">Catch Up</a></li>
+                                <li class="my-2 list-unstyled"><a href="">Catch Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 text-center">
+                            <h2 class="menu-heading">Browse</h2>
+                            <ul class="mt-3 text-left ml-4 nav-list">
+                                <li class="my-2 list-unstyled"><a href="gallery.html">Gallery</a></li>
+                                <li  class="my-2 list-unstyled"><a href="">Videos</a></li>
+                                <li  class="my-2 list-unstyled"><a href="">Catch Up</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 text-center">
+                            <h2 class="menu-heading">Forum</h2>
+                            <ul class="mt-3 text-left ml-4 nav-list">
+                                <li  class="my-2 list-unstyled"><a href="profile.html">My Profile</a></li>
+                                <li  class="my-2 list-unstyled"><a href="register.html">Sign Up</a></li>
+                                <li  class="my-2 list-unstyled"><a href="login.html" class="btn btn-sm btn-outline-paper ml-0">Log in</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+		<!-- ./header -->
+
+		<!-- main -->
+		<main id="homepage">
+			<div class="container">
+				<div class="row countdown-clock">
+					<div class="col-9 col-md-9 ">
+						<span id="countdown_clock" class="timer"></span>
+					</div>
+					<div class="col-3 col-md-3">
+						<img src="assets/img/direwolf.jpg" alt="stark's banner" class="stark-banner">
+					</div>
+				</div>
+				<!-- <audio controls>
+					<source src="assets/audio/theme_song.mp3"></source>
+					<p>If you're seeing this your browser cannot play the audio file</p>
+				</audio> -->
+			</div>
+		</main>
+		<!-- ./main -->
+
+        <!-- jQuery -->
+        <script src="assets/plugins/jquery/jquery-3.1.1.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            app.initMenuOverlay();
+            app.initCountdownTimer();
+        </script>
+    </body>
+</html>

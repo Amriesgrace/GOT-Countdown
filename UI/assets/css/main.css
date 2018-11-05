@@ -1,0 +1,76 @@
+/***margin ****/
+/**** Heights ****/
+/* line 6, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.h-10 {
+  height: 10px;
+}
+
+/* line 7, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.h-70 {
+  height: 70px;
+}
+
+/* line 8, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.h-200 {
+  height: 200px;
+}
+
+/**** Widths ****/
+/* line 10, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.width-300 {
+  width: 300px;
+}
+
+/* line 11, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.width-100p {
+  width: 100%;
+}
+
+/**** Positions ****/
+/* line 14, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.pos-rel {
+  position: relative;
+}
+
+/* line 15, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.pos-abs {
+  position: absolute;
+}
+
+/***Top ***/
+/* line 18, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.t-10 {
+  top: 10%;
+}
+
+/***LEFT ***/
+/* line 21, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.l-0 {
+  left: 0;
+}
+
+/* line 22, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.l-10 {
+  left: 10%;
+}
+
+/****Display****/
+/* line 24, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.dis-inline {
+  display: inline;
+}
+
+/**** borders ****/
+/* line 26, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.bd-blk {
+  border: 1px solid black;
+}
+
+/* line 27, C:/Users/Baron2Oxide/Desktop/GOT COUNTDOWN/assets/sass/base/base.scss */
+.bd-blue {
+  border: 1px solid blue;
+}
+
+/**** Layoiuts ****/
+
+/*# sourceMappingURL=../css/main.map */
