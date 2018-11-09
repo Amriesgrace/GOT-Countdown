@@ -13,7 +13,8 @@
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
 		<!-- Bootstrap core CSS -->
-		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/plugins/Magnific-Popup/dist/magnific-popup.css">
 		<!-- normalize css -->
 		<link rel="stylesheet" href="assets/css/normalize.css"> 
 		<!-- main.css --> 
@@ -67,12 +68,44 @@
 		<!-- ./ header -->
 		<!-- main -->
 		<main id="gallery">
-			<div class="container mt-5">
+			<div class="container mt-5" id="popup-images">
 			    <h3 class="text-center ft-got">Let the three eyed raven show you</h3>
                 <div class="row mt-5">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="col-md-3">
+                        <div class="gallery-img-wrapper">
+                            <a href="assets/img/got3.jpg" class="gallery-img">
+                                <img src="assets/img/army.png" alt="" class="w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="assets/img/backgrounds/faces.jpg" class="gallery-img">
+                            <img src="assets/img/backgrounds/faces.jpg" class="w-100" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="assets/img/great_wall.jpg" class="gallery-img">
+                            <img src="assets/img/great_wall.jpg" class="w-100" alt="">
+                        </a>
+                    </div>
+                        <!-- <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="gallery-img">
+                                    
+                                    <div class="hide-img-overlay">
+                                        <span>
+                                            <a href="" class="like mr-2">
+                                                <i class="fa fa-heart-o text-white"></i>
+                                            </a>
+                                            <a href="" class="comment">
+                                                <i class="fa fa-comment-o text-white"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
                             <div class="gallery-img">
-                                <img src="assets/img/got3.jpg" class="w-100" alt="">
+                                
                                 <div class="hide-img-overlay">
                                     <span>
                                         <a href="" class="like mr-2">
@@ -84,52 +117,37 @@
                                     </span>
                                 </div>
                             </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="gallery-img">
-                            <img src="assets/img/army.png" class="w-100" alt="">
-                            <div class="hide-img-overlay">
-                                <span>
-                                    <a href="" class="like mr-2">
-                                        <i class="fa fa-heart-o text-white"></i>
-                                    </a>
-                                    <a href="" class="comment">
-                                        <i class="fa fa-comment-o text-white"></i>
-                                    </a>
-                                </span>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="gallery-img">
+                                
+                                <div class="hide-img-overlay">
+                                    <span>
+                                        <a href="" class="like mr-2">
+                                            <i class="fa fa-heart-o text-white"></i>
+                                        </a>
+                                        <a href="" class="comment">
+                                            <i class="fa fa-comment-o text-white"></i>
+                                        </a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="gallery-img">
-                            <img src="assets/img/backgrounds/faces.jpg" class="w-100" alt="">
-                            <div class="hide-img-overlay">
-                                <span>
-                                    <a href="" class="like mr-2">
-                                        <i class="fa fa-heart-o text-white"></i>
-                                    </a>
-                                    <a href="" class="comment">
-                                        <i class="fa fa-comment-o text-white"></i>
-                                    </a>
-                                </span>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="gallery-img">
+                                
+                                <div class="hide-img-overlay">
+                                    <span>
+                                        <a href="" class="like mr-2">
+                                            <i class="fa fa-heart-o text-white"></i>
+                                        </a>
+                                        <a href="" class="comment">
+                                            <i class="fa fa-comment-o text-white"></i>
+                                        </a>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="gallery-img">
-                            <img src="assets/img/great_wall.jpg" class="w-100" alt="">
-                            <div class="hide-img-overlay">
-                                <span>
-                                    <a href="" class="like mr-2">
-                                        <i class="fa fa-heart-o text-white"></i>
-                                    </a>
-                                    <a href="" class="comment">
-                                        <i class="fa fa-comment-o text-white"></i>
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                        </div> -->
                 </div>
 			    <div class="row">
                     <div class="col-md-3"></div>
@@ -142,13 +160,27 @@
 		<!-- jquery -->
 		<script src="assets/plugins/jquery/jquery-3.1.1.min.js"></script>
 		<!-- bootstrap -->
-		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/plugins/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 		<!-- main-->
 		<script src="assets/js/main.js"></script>
 		<script type="text/javascript">
             app.initMenuOverlay();
-            app.initImgOverlay();
-		</script>
+            // app.initImgOverlay();
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.gallery-img').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    mainClass: 'mfp-img-mobile',
+                    image: {
+                        verticalFit: true
+                    }
+                    
+                });
+            });
+        </script>
 
 	</body>
 </html>

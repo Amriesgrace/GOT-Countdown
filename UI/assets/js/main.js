@@ -81,7 +81,7 @@ var app ={
 		menuBtn.addEventListener('click', toggleMenu);
     },//toggles overlay menu
     
-    initImgOverlay: () => {
+    /* initImgOverlay: () => {
         const galleryImg = document.getElementsByClassName('gallery-img');
         const showOverlay = (ev) => {
             let overlay = ev.target.nextElementSibling;
@@ -103,6 +103,6 @@ var app ={
             galleryImg[i].addEventListener('mouseover', showOverlay);
             galleryImg[i].addEventListener('mouseleave', hideOverlay);
         }
-    }, // toggles view of icons on hover image in the gallery
+    }, */ // toggles view of icons on hover image in the gallery
 
 }; 
